@@ -6,9 +6,13 @@ $h2_color: #873E21;
 
 
 main{
+    margin-top: 200px;
+    margin-bottom: 80px;
+
     .seccion_contacto{
         display: flex;
         justify-content: center;
+        padding: 64px;
     }
 
     .contacto{
@@ -57,13 +61,12 @@ header{
     
     .logo {
         flex-grow: 1;
+        height: 160px;
     }
     
     a {
         display: inline-block;
-        margin-left: 128px;
-        margin-top: 64px;
-        margin-bottom: 64px;
+        padding: 64px;
     
     }
     
@@ -79,7 +82,7 @@ header{
     
     
     a {
-        font-family: 'montserrat';
+        font-family: 'Montserrat';
         text-decoration: none;
         color: $color_anclas;
         text-transform: uppercase;
@@ -97,6 +100,9 @@ header{
     }
     
     ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 0;
         padding: 0;
     }
@@ -113,6 +119,7 @@ header{
 
 
 footer {
+    bottom: auto;
     font-family: "montserrat";
     font-weight: 400;
     letter-spacing: 1px;
