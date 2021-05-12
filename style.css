@@ -273,7 +273,7 @@ header{
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 100%;
+    min-height: 50%;
 }
 
 /*SECCIÓN 2*/
@@ -344,7 +344,7 @@ header{
 
 
 
-/*CARD DE PRODUCTOS-en un futuro agregar los link a productos*/
+/*CARD DE PRODUCTOS*/
 
 
 .titulo_producto{
@@ -372,9 +372,7 @@ header{
     transform: scale(1.1);
     transition-duration: 1s;
 }
-/*.card img {
-    width:300px
-}*/
+
 
 .card h3 {
     font-family: "montserrat";
@@ -527,7 +525,7 @@ header{
 }
 
 .card_producto h3 {
-    font-family: "Montserrat";
+    padding: 16px;
     font-weight: 500;
     text-align: center;
     transition: all;
@@ -608,43 +606,6 @@ header{
     text-align: center;
     width: 500px;
     padding: 16px;       
-}
-
-
-/*Contacto*/
-
-.banner_top {
-    display: flex;
-    padding-top: 100px;
-}
-
-.banner_top img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-}
-
-.main_contacto{
-    margin-top: 300px;
-}
-
-.contacto{
-    display: flex;
-    justify-content: center;
-}
-
-.contacto__contenedor{
-    margin-top: 0px;
-    padding: 0px 64px 128px 64px;
-    margin-left: 200px;
-    margin-right: 200px;
-    text-align: center;
-}
-
-.contacto__contenedor a{
-   text-decoration: none;
-   color: #D96C21 ;
 }
 
 
