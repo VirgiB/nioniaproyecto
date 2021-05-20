@@ -633,6 +633,7 @@ header{
 
 @media (min-width: 360px) and (max-width: 768px){
 
+
  /*responsive footer*/
     
    footer{
@@ -659,7 +660,6 @@ header{
         width: auto;
     }
 
-  /*responsive nav*/
 
     #nav-ul{ 
         display: none;
@@ -681,9 +681,14 @@ header{
 
     }
     .logo{
-        width: 70%;
+        width: 50%;
     }
+    
 /*responsive proyecto*/
+
+    .main_proyecto{
+        width: auto;
+    }
     .proyecto{
         display: flex;
         height: auto;
@@ -711,7 +716,7 @@ header{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 64px;
+        padding: 24px;
         margin-right: 0;
         margin-left: 0;
         margin: 0;
@@ -727,11 +732,12 @@ header{
 
     .vision__foto{
         margin: 0;
-        padding: 64px;
+        padding: 0px;
+        width: 300px;
     }
 
     .vision__contenido2{
-        padding: 64px;
+        padding: 24px;
         width: auto;
         font-size: 12px;
         margin: 0px;
@@ -908,7 +914,17 @@ header{
         width: 100%;
         text-align: center;
     }
-
+    .bloqueNewsletter__newsletter form input[type="email"]{
+        width:auto;
+        padding:16px;
+        border:none;
+        border-radius:3px;
+        background-color:#FCF9F7;
+        margin:16px 0;
+        font-family: "montserrat";
+        font-weight: 400;
+    }
+    
     
 }
 
@@ -1015,6 +1031,7 @@ header{
     /*home*/ 
     .main_home{
         margin-top: 150px;
+        width: auto;
     }
 
 
@@ -1126,6 +1143,16 @@ header{
         padding: 64px;
         width: 100%;
         text-align: center;
+    }
+    .bloqueNewsletter__newsletter form input[type="email"]{
+        width:auto;
+        padding:16px;
+        border:none;
+        border-radius:3px;
+        background-color:#FCF9F7;
+        margin:16px 0;
+        font-family: "montserrat";
+        font-weight: 400;
     }
     
     /*responsive nav*/
