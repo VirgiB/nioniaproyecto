@@ -631,8 +631,8 @@ header{
 
 /*MOBILE*/ 
 
-@media (min-width: 576px) and (max-width: 768px){
-   
+@media (min-width: 360px) and (max-width: 768px){
+
  /*responsive footer*/
     
    footer{
