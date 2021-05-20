@@ -676,7 +676,8 @@ header{
         border: none;
         background-color: transparent;
         margin-left: auto;
-        margin-right: 64px;
+        margin-right: 32px;
+        padding: 16px;
 
     }
     .logo{
@@ -799,7 +800,7 @@ header{
     .seccion1 {
         display: block;
         padding-bottom: 300px;
-        height: 400px;
+        height: 300px;
         width: auto; 
 
     }
@@ -903,7 +904,7 @@ header{
     
     .bloqueNewsletter__newsletter{
         display: block;
-        padding: 64px;
+        padding: 24px;
         width: 100%;
         text-align: center;
     }
