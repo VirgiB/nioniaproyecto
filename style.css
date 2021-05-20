@@ -725,15 +725,16 @@ header{
     }
 
     .vision__foto2{
-        padding: 64px;
+        padding: 0px;
         margin:0px;
+        width: 200px;
 
     }
 
     .vision__foto{
         margin: 0;
         padding: 0px;
-        width: 300px;
+        width: 200px;
     }
 
     .vision__contenido2{
@@ -1020,12 +1021,14 @@ header{
     .vision__foto2{
         padding: 64px;
         margin:0px;
+        width: auto;
 
     }
 
     .vision__foto{
         margin: 0;
         padding: 64px;
+        width: auto;
     } 
 
     /*home*/ 
