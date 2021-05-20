@@ -12,18 +12,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="estilos.css">
+
 </head>
 <body>
+
     <header>
-        <div class="contenedor">
+  
+
+        <div class="nav">
             <div class="logo">
-                <a href="index.html"><img width="100%" src="img/logofinal.png" alt="logo" title="logo"></a>
+                <a href="index.html"><img width="100%" src="img/logofinal.png" alt="logo"></a>
             </div>
                 
             <div class="menu">
-               
-                <ul>
+              <ul id="nav-ul">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="proyecto.html">Proyecto</a></li>
+                    <li><a href="productos.html">Productos</a> </li>
+                    <li><a href="contacto.html">Contacto</a> </li>
+                </ul>
+
+                <button id="menu_hamburguesa">
+                    <img src="img/hamburguesa.png" alt="menu_hamburguesa">
+                </button>
+            </div>
+
+            <div id="menu_mobile">
+                <ul id="nav-ul-mobile">
                     <li><a href="index.html">Inicio</a></li>
                     <li><a href="proyecto.html">Proyecto</a></li>
                     <li><a href="productos.html">Productos</a> </li>
@@ -32,17 +49,17 @@
             </div>
 
         </div>
-      
+   
     </header> 
     
     <main>
-        <div class="seccion_contacto">
-            <div class="contacto"> 
-                <h2>Contacto</h2>
+
+        <div class="contacto"> 
+                <h1>Contacto</h1>
                 <p>
                 Si querés ponerte en contacto con nosotras, escribinos a nioniaencuadernación@gmail.com.
-                Te responderemos lo más pronto posible. <br>
-                También podés contactarnos en <a href="#"> Instagram</a> y <a href="#"> Facebook</a>.
+                Te responderemos lo más pronto posible. </br>
+                También podés contactarnos en <a href="https://www.instagram.com/nionia.cuadernosartesanales/?hl=es-la"> Instagram</a> y <a href="https://www.facebook.com/nionia.cuadernosartesanales"> Facebook</a>.
                 </p>
             </div>
            
@@ -50,25 +67,30 @@
 
     </main>
 
-    <footer>
- 
+    <footer>           
         <div class="container">
           <div class="row">
             <div class="col">
-                <p> <a href="#">Instagram </a> </p>  
-                 <p> <a href="#">Facebook</a></p> 
+                <p> <a href="https://www.instagram.com/nionia.cuadernosartesanales/?hl=es-la">Instagram </a> </p>  
+                 <p> <a href="https://www.facebook.com/nionia.cuadernosartesanales">Facebook</a></p> 
             </div>
             <div class="col-6">
               <P>Email: nioniaencuadernación@gmail.com </P>
                <p>Teléfono: 3358422982</p>
             </div>
             <div class="col"> 
-                <a href="index.html">
-                  <img src="img/logo_footer.png" alt="logo">
-                </a>
+                <a href="index.html"></a>
+              <img src="img/logo_footer.png" alt="logo" title="logo">
             </div>
-
      </footer>
+     
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!--Js menu-->
+      <script> const menuOculto = document.getElementById('menu_mobile');        
+      document.getElementById('menu_hamburguesa').addEventListener('click', function() {
+        menuOculto.classList.toggle('mostrar'); });
+      </script>
 
 
 <body>
